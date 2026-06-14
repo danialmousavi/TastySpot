@@ -4,7 +4,7 @@ import TastesList from '../components/TastesList'
 const AllTastes = () => {
   return (
     <>
-        <TastesList/>
+        <TastesList tastes={[]}/>
     </>
   )
 }
