@@ -4,7 +4,7 @@ import { Navigator } from "./navigation/Navigator";
 export default function App() {
   return (
     <>
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
       <Navigator/>
     </>
   );

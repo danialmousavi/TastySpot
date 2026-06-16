@@ -1,6 +1,7 @@
 import { View, Text, FlatList, StyleSheet } from 'react-native'
 import { TastesType } from '../utils/types/Tastes'
 import TastyCard from './TastyCard'
+import { Colors } from '../constants/colors'
 type TastesListProps={
     tastes:TastesType[]
 }
@@ -30,7 +31,8 @@ const styles=StyleSheet.create({
     },
     warningText:{
         fontSize:20,
-        fontWeight:"bold"
+        fontWeight:"bold",
+        color:Colors.primary
     }
 
 })
