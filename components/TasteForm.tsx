@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { View, Text, ScrollView, TextInput, StyleSheet } from 'react-native'
 import { Colors } from '../constants/colors'
 import ImagePicker from './ImagePicker'
+import LocationPicker from './LocationPicker'
 
 const TasteForm = () => {
   const [title,setTitle]=useState("")
@@ -16,6 +17,7 @@ const TasteForm = () => {
         <TextInput onChangeText={titleHandler} value={title} style={styles.input}/>
       </View>
       <ImagePicker/>
+      <LocationPicker/>
     </ScrollView>
     </>
   )
